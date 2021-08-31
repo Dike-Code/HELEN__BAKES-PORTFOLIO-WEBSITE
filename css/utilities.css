@@ -1,0 +1,44 @@
+/** @format */
+
+:root {
+   --primary-color: #750606;
+   --seconday-color: rgba(0, 0, 0, 0.5);
+   --neutral-color: rgba(0, 0, 0, 0.3);
+   --text-color: #fff;
+}
+
+.btn {
+   background: var(--primary-color);
+   padding: 1.2rem 3rem;
+   border-top-right-radius: 0.5rem;
+   border-bottom-left-radius: 0.5rem;
+}
+
+/* .fa-birthday-cake {
+    color: linear-gradient(to right, red, to left, blue);
+ } */
+
+.highlight {
+   color: var(--primary-color);
+}
+
+.container {
+   max-width: 90%;
+   margin: 0 auto;
+}
+
+.flex {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.grid {
+   display: grid;
+   grid-template-columns: 1fr;
+}
+
+.main {
+   position: relative;
+   width: 100%;
+}

@@ -1,0 +1,248 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="description" content="Cake Delivery at your door step" />
+      <meta name="author" content="Helen__Bakes" />
+      <meta name="viewport" content="width=dievice-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" type="text/css" href="./css/helen.css" />
+      <link rel="stylesheet" type="text/css" href="./css/utilities.css" />
+      <link rel="stylesheet" type="text/css" href="./css/media_query.css" />
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+      <title>Helen__Bakes</title>
+   </head>
+
+   <body>
+      <header class="head">
+         <div class="container flex">
+            <div class="logo"><i class="fas fa-birthday-cake fa-1x"></i><span class="highlight"> Helen</span>__Bakes</div>
+            <div class="mobile">
+               <span class="bar"></span>
+               <span class="bar"></span>
+               <span class="barr"></span>
+            </div>
+            <nav class="navigation">
+               <ul class="navbar">
+                  <li class="navbar__items">
+                     <a href="#home" class="nav__link">Home</a>
+                  </li>
+                  <li class="navbar__items">
+                     <a href="#about" class="nav__link">About</a>
+                  </li>
+                  <li class="navbar__items">
+                     <a href="#service" class="nav__link">Service</a>
+                  </li>
+                  <li class="navbar__items">
+                     <a href="#test" class="nav__link">Testimonials</a>
+                  </li>
+                  <li class="navbar__items">
+                     <a href="#contact" class="nav__link">Contact</a>
+                  </li>
+               </ul>
+            </nav>
+         </div>
+      </header>
+      <!-- End of Heading -->
+      <main class="main">
+         <section class="home__section" id="home">
+            <div class="container">
+               <div class="home__img">
+                  <img src="./images/home__img right.png" alt="" />
+               </div>
+               <div class="home__content">
+                  <h1><span class="highlight">Hello,</span> I am Helen</h1>
+                  <p>An Accountant and CEO Helen__Bakes</p>
+                  <p>Have a bite and come back for<br />More</p>
+                  <a href="#order" class="btn">Order</a>
+               </div>
+            </div>
+         </section>
+         <section class="about__section" id="about">
+            <div class="container grid">
+               <div class="about__img">
+                  <img src="./images/helen.jpg" alt="image" />
+               </div>
+               <div class="about__content">
+                  <h2>Helen's Story</h2>
+                    <p>Baking With Love, makes it delicious</p>
+                  <p>
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Dolore temporibus asperiores consectetur molestiae nisi
+                     eius dolorum molestias? Error doloribus voluptatum corrupti
+                     quibusdam consequuntur! Quidem tempore pariatur laudantium
+                     libero voluptatum sequi.
+                  </p>
+                  <p>
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Dolore temporibus asperiores consectetur molestiae nisi
+                     eius dolorum molestias? Error doloribus voluptatum corrupti
+                     quibusdam consequuntur! Quidem tempore pariatur laudantium
+                     libero voluptatum sequi.
+                  </p>
+         </section>
+         <section class="order__section">
+             <div class="container flex">
+                 <div class="order__content">
+                    <h1>Place Order</h1>
+                    <p>Get your product today</p>
+                    <div class="order__box">
+                        <ul class="order__text1">
+                            <li class="order"><i class="fas fa-arrow-right fa-1x"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, consectetur.</li>
+                            <li class="order"><i class="fas fa-arrow-right fa-1x"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, consectetur.</li>
+                            <li class="order"><i class="fas fa-arrow-right fa-1x"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, consectetur.</li>
+                        </ul>
+   
+                        <ul class="order__text2">
+                            <li class="order"><i class="fas fa-arrow-right fa-1x"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, consectetur.</li>
+                            <li class="order"><i class="fas fa-arrow-right fa-1x"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, consectetur.</li>
+                            <li class="order"><i class="fas fa-arrow-right fa-1x"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, consectetur.</li>
+                        </ul>
+                        <p>Our shop is open every workdays from <b>9:AM to 5:PM</b></p>
+                    </div>      
+                 </div>
+                 <form action="" class="order__form">
+                     <div class="form_control">
+                        <div class="row">
+                            <div class="input50">
+                                <input type="text" name="user" id="user" placeholder="Name *">
+                            </div>
+                            <div class="input50">
+                                <input type="email" name="email" id="email" placeholder="helen@email *">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input50">
+                                <input type="text" name="number" id="number" placeholder="+234 *" maxlength="11">
+                            </div>
+                            <div class="input50"> 
+                                <input type="text" name="address" id="address" placeholder="Lagos, PH, Imo *">
+                            </div>
+                        </div>
+                     </div>
+
+                     <div class="input100">
+                        <input type="text" name="order" id="order" placeholder="Place Order*">
+                     </div>
+                     <div class="input100">
+                         <textarea name="Message" placeholder="Message"></textarea>
+                     </div>
+                     <div class="submit__input">
+                        <div class="input50">
+                            <input type="submit" value="Place order">
+                         </div>
+                     </div>
+                     
+                 </form>
+             </div>
+         </section>
+         <section class="services__section" id="service">
+             <h1>Our Services</h1>
+             <div class="container flex">
+                 <div class="services__content"data-aos="zoom-in-up">
+                     <img src="./images/Brown cake.jpg" alt="">
+                    <h2>Brown Cake</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quis, exercitationem commodi nihil animi.
+                    </p>
+                 </div>
+                 <div class="services__content"data-aos="zoom-in-up">
+                     <img src="./images/cup cake2.jpeg" alt="">
+                    <h2>Cup Cake</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam libero non cumque explicabo sed totam!</p>
+                 </div>
+                 <div class="services__content"data-aos="zoom-in-up">
+                     <img src="./images/red velvet.jpeg" alt="">
+                    <h2>Red Velvet</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam pariatur et dolorum quisquam ab ullam.</p>
+                 </div>
+                 <div class="services__content"data-aos="zoom-in-up">
+                     <img src="./images/buscuit cake.jpg" alt="">
+                    <h2>Buscuit Cake</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi quas ullam, aliquam tempora exercitationem reiciendis.</p>
+                 </div>
+                 <div class="services__content"data-aos="zoom-in-up">
+                     <img src="./images/chocolate cake.jpeg" alt="">
+                    <h2>Chocolate Cake</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum porro explicabo nisi quam excepturi debitis.</p>
+                 </div>
+             </div>
+         </section>
+         <section class="testimonial__sec" id="test">
+            <div class="container flex">
+               <h1>Testimonials</h1>
+               <div class="testimonial__content">
+                  <div class="testimonial"data-aos="fade-right">
+                     <img src="./images/image-emily.jpg" alt="image">
+                     <h2>Mary</h2>
+                     <p>I want to say a big Thank You for the cake you made for us. it was really wonderful</p>
+                  </div>
+                  <div class="testimonial" data-aos="fade-right">
+                     <img src="./images/image-jennie.jpg" alt="image">
+                     <h2>Gift</h2>
+                     <p>I heard from others and never understood untill I had a bite. Yumyum. Helen thank you it's beautiful</p>
+                  </div>
+                  <div class="testimonial" data-aos="fade-right">
+                     <img src="./images/image-thomas.jpg" alt="image">
+                     <h2>Karo</h2>
+                     <p>I must admit. Cakes speaks for itself. Yeah. Helen bakes got you covererd. Confirmed and trusted.</p>
+                  </div>
+               </div>
+               
+            </div>
+         </section>
+         <section class="contact__sec" id="contact">
+            <div class="container grid">
+               <div class="contact__content">
+                  
+                  <div class="contact__text">
+                     <h2>
+                        For more enquires
+                     </h2>
+                     <p>Reach us through the following handles</p>
+                  </div>
+                  <ul class="social">
+                     <li class="social__items"><a href="https://www.instagram.com/helen_bakes01/" target="_blank"><i class="fab fa-instagram fa-1x"></i></a></li>
+                     <li class="social__items"><a href="https://www.facebook.com/profile.php?id=100008524277498" target="_blank"><i class="fab fa-facebook fa-1x"></i></a></li>
+                     <li class="social__items"><a href=""><i class="fab fa-twitter fa-1x"></i></a></li>
+                  </ul>
+                  <p>Call: <a href="tel:08100012161" class="tel">081-000-012-161</a> </p>
+   
+                  
+               </div>
+               <form action="" class="newsletter__form">
+                  <h2>Newsletter Request</h2>
+                  <div class="newsletter__control">
+                     <input type="text" name="name" id="name" placeholder="Full-Name">
+                  </div>
+                  <div class="newsletter__control">
+                     <input type="email" name="email" id="email" placeholder="helen@email.com">
+                  </div>
+                  <div class="newsletter__control">
+                    <textarea name="Message" placeholder="Comments"></textarea>
+                  </div>
+                  <input type="submit" value="Send">
+               </form>
+            </div>
+         </section>
+      </main>
+      <footer class="footer">
+         <div class="container flex">
+            <p class="copy"><span class="highlight">&copy;</span> Copyright 2021</p>
+         <div class="footer__logo"><span class="highlight">Helen</span>__Bakes</div>
+         </div>
+      </footer>
+      
+      <script src="./js/helen.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset:400,
+      duration:1000
+    });
+  </script>
+
+   </body>
+</html>
